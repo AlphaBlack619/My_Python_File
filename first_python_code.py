@@ -1,0 +1,13 @@
+print("learn python to be great!")
+name = input('enter your name ')
+print("my name is", name)
+print()
+print("i")
+print()
+print("know")
+print("")
+print('python')
+print(name)
+name = 'Okon'
+print(type(name))
+print(name)
