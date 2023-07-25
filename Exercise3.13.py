@@ -1,4 +1,4 @@
-def factorial(number=int(input('enter a number: '))):
+def factorial(number=eval(input('enter a number: '))):
     factor = 1
     if number >= 0:
         for factorials in range(number, 1, -1):
@@ -10,5 +10,6 @@ factorial()
 
 ee = 1
 for t in range(1, 8):
-    ee += 1/t
+    ee += 1 / factorial(t)
+    
 print(ee)
